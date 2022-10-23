@@ -18,7 +18,7 @@ function Reviews(props){
         setReviews(json.data.products);
         }
      
-        const reviewsInfo = reviews.find(e => e.id == id)
+        const reviewsInfo = reviews.find(e => e.id === id)
 
         useEffect(() => {
             getInfoReviews();
